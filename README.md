@@ -8,8 +8,7 @@ Install dependencies,
 $ yarn
 ```
 
-Start the dev server,111
-Start the dev server222,
+Start the dev server
 
 ```bash
 $ yarn start
@@ -17,4 +16,4 @@ $ yarn start
 ### panda-mall
 
 
-react-hooks umi 
+主要技术 react-hooks 和 umi 
