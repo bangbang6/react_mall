@@ -17,3 +17,4 @@ $ yarn start
 
 
 主要技术 react-hooks 和 umi 
+学会使用umi快速开发项目 账号 'bang' 密码:'123'
