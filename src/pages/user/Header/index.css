@@ -1,0 +1,24 @@
+.main {
+  margin-bottom: 20px;
+}
+.main .header {
+  background: linear-gradient(90deg, #dd9b4c, #ffd787);
+  box-shadow: 0 4px 10px #f8e3c6;
+}
+.main .userIcon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.main .userIcon img {
+  display: block;
+  width: 100%;
+}
+.main .name {
+  margin-left: 20px;
+}
+.main .arc {
+  margin-top: -4px;
+  transform: rotate(180deg);
+}

@@ -35,8 +35,9 @@ export default defineConfig({
       path: '/', 
       component: '@/layouts/BasicLayout',
       routes:[
-        { path: '/', component: '@/pages/index' },
-       
+        { path: '/', component: '@/pages/home' },
+        {path:"/product/:id",component:"@/pages/product/[id]"},
+        {path:"/search",component:"@/pages/search/search"},
         { path: '/login', component: '@/pages/login/index' },
           //嵌套一层路由守卫
         {
@@ -46,8 +47,10 @@ export default defineConfig({
             { path: '/cart', component: '@/pages/cart/index' },
             { path: '/olist', component: '@/pages/olist/index' },
             { path: '/user', component: '@/pages/user/index' },
+            { path: '/confirmBill', component: '@/pages/confirmBill/index' },
           ]
         }
+
     ] 
   },
     

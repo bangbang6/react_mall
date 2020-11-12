@@ -1,1 +1,1 @@
-declare module 'rc-form'
+ declare module 'rc-form'  

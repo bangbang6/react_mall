@@ -1,10 +1,20 @@
-import React from 'react';
+import { CartProductType } from '@/@types/product';
+import { query } from '@/services/olist';
+import React,{useEffect,useState} from 'react';
 import styles from './index.less';
+import List from './List';
 
 export default () => {
+  const [olist,setOlist] = useState<CartProductType[]>([])
+  useEffect(() => {
+    query().then(res=>{
+      setOlist(res.list.data)
+    })
+    
+  }, [])
   return (
     <div>
-      <h1 className={styles.title}>Page olist/index</h1>
+     <List data={olist}> </List>
     </div>
   );
 }
